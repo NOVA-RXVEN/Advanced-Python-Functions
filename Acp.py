@@ -11,10 +11,6 @@ print(f"Odd Numbers: {list2}")
 
 fruits = ["apple", "mango", "watermelon", "banana", "orange", "kiwi", "strawberry", "blueberry", "date", "rasberry", "pomegranate"]
 
-fruitsCap = []
-
-for i in fruits:
-    fruitsCap.append(i.capitalize())
-    fruitsCap.append(i.upper())
+fruitsCap = [i.capitalize() for i in fruits]
 
 print(fruitsCap)
